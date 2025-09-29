@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Page } from '../App';
+import logo from '../images/Logo-Shecofest.png';
 
 interface HeaderProps {
   currentPage: Page;
@@ -33,9 +34,9 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             onClick={() => handleNavigate('home')}
           >
             <img
-              src="/images/Logo-Shecofest.png"
+              src={logo}
               alt="Shecofest Logo"
-              className="h-8 w-auto rounded-lg"
+              className="h-8 w-auto"
               />
             <span className="ml-2 text-sm font-medium">2025</span>
           </div>
