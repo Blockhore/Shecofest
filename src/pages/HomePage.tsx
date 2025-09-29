@@ -21,7 +21,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
     {
       id: 'debate' as Page,
       title: 'Tilawah Competition',
-      description: 'Tunjukkan kemampuan berbicara dan berargumentasi Anda dalam membahas isu-isu terkini ekonomi syariah.',
+      description: 'Tunjukkan kemampuan tilawah dan suara emasmu dalam membaca ayat suci al-quran.',
       icon: '🎤',
       deadline: '14 Oktober, 2025'
     },
