@@ -36,7 +36,6 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             <img
               src={logo}
               alt="Shecofest Logo"
-              className="h-8 w-auto"
               />
             <span className="ml-2 text-sm font-medium">2025</span>
           </div>
