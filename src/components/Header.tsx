@@ -33,7 +33,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             onClick={() => handleNavigate('home')}
           >
             <img
-              src="/logo-shecofest.png"
+              src="/Logo-Shecofest.svg"
               alt="Shecofest Logo"
               className="h-8 w-auto"
               />
