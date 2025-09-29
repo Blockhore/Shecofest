@@ -32,9 +32,11 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
             className="flex items-center cursor-pointer"
             onClick={() => handleNavigate('home')}
           >
-            <div className="bg-[#FFD700] text-[#1F3C88] px-3 py-1 rounded-lg font-bold text-lg">
-              SHECOFEST
-            </div>
+            <img
+              src="src/images/Logo-Shecofest.png"
+              alt="Shecofest Logo"
+              className="h-8 w-auto rounded-lg"
+              />
             <span className="ml-2 text-sm font-medium">2025</span>
           </div>
 
