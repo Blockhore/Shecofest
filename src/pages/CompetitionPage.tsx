@@ -85,35 +85,36 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       title: 'Tilawah Competition',
       subtitle: 'Kompetisi Tilawah Ekonomi Syariah',
       description: 'Tunjukkan kemampuan tilawah dan suara emasmu dalam membaca ayat suci al-quran.',
-      theme: "Tilawaah Qur'ani : Suara Langit untuk Bumi yang Lestari",
+      theme: "TILAWAH QUR'ANI : SUARA LANGIT UNTUK BUMI YANG LESTARI",
       icon: '🎤',
       timeline: [
-        { phase: 'Pendaftaran', date: 'Jan 15 - Mar 18, 2025', status: 'active' },
-        { phase: 'Penyisihan Online', date: 'Mar 22 - Mar 25, 2025', status: 'upcoming' },
-        { phase: 'Semifinal', date: 'Apr 10, 2025', status: 'upcoming' },
-        { phase: 'Final', date: 'Apr 20, 2025', status: 'upcoming' }
+        { phase: 'Pendaftaran + Pengumpulan Video', date: '1 - 20 Okt, 2025', status: 'active' },
+        { phase: 'Seleksi Video', date: '21 - 27 Okt, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman Finalis', date: '28 Okt, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting (Pembahasan Finalis)', date: '4 Nov, 2025', status: 'upcoming' }
+        { phase: 'Persiapan Final', date: '5 - 13 Nov, 2025', status: 'upcoming' }
+        { phase: 'Pelaksanaan Tilawah', date: '14 - 15 Nov, 2025', status: 'upcoming' }
+        { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' }
       ],
       requirements: [
-        'Peserta individual atau tim 2 orang',
-        'Mahasiswa aktif dari universitas manapun',
-        'Menguasai bahasa Indonesia dan Inggris',
-        'Siap mengikuti seluruh tahapan kompetisi',
-        'Memiliki pengetahuan dasar ekonomi syariah',
-        'Tidak sedang mengikuti kompetisi serupa'
+        'Peserta siswa aktif SMA/SMK sederajaht dari sekolah di seluruh Indonesia',
+        'Setiap lembaga diperbolehkan mengirimkan maksimal 2 delegasi peserta',
+        'Video di upload di YouTube akun masing-masing',
+        'Wajib follow sosial media',
+        'Video merupakan hasil orisinalitas peserta bukan rekayasa',
       ],
       criteria: [
-        'Substansi argumen dan fakta (30%)',
-        'Delivery dan teknik berbicara (25%)',
-        'Logika dan struktur argumen (20%)',
-        'Kemampuan rebuttals (15%)',
-        'Confidence dan stage presence (10%)'
+        'Tajwid (30%)',
+        'Fasohah (30%)',
+        'Suara (25%)',
+        'Lagu (15%)',
       ],
       prizes: [
-        { position: 'Juara 1', reward: 'Rp 1.000.000 + Trophy + Sertifikat' },
-        { position: 'Juara 2', reward: 'Rp 700.000 + Trophy + Sertifikat' },
-        { position: 'Juara 3', reward: 'Rp 500.000 + Trophy + Sertifikat' },
-        { position: 'Harapan 1', reward: 'Rp 200.000 + Sertifikat' },
-        { position: 'Harapan 2', reward: 'Rp 100.000 + Sertifikat' }
+        { position: 'Juara 1', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 2', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 3', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Harapan 1', reward: 'Uang Pembinaan + Sertifikat' },
+        { position: 'Harapan 2', reward: 'Uang Pembinaan + Sertifikat' }
       ]
     },
     'poster': {
