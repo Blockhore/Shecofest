@@ -4,6 +4,7 @@ import { Page } from '../App';
 import CompetitionCard from '../components/CompetitionCard';
 import Timeline from '../components/Timeline';
 import SponsorSection from '../components/SponsorSection';
+import MediaPartner from '../components/MediaPartner';
 
 interface HomePageProps {
   onNavigate: (page: Page) => void;
