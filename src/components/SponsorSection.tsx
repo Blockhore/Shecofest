@@ -3,7 +3,7 @@ import Logo from '../assets/BARA.svg';
 
 const SponsorSection: React.FC = () => {
   const sponsors = [
-    { name: 'BARA Kreasi Milenial', logo: <img src={Logo} alt="BARA LOGO" className="h-16 w-auto" /> },
+    { name: 'BARA Kreasi Milenial', logo: <img src={Logo} alt="BARA LOGO" className="h-17 w-auto" /> },
     { name: 'Coming Soon', logo: '🎓' },
     { name: 'Coming Soon', logo: '🏛️' },
     { name: 'Coming Soon', logo: '💰' },
