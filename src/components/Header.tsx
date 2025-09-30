@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Page } from '../App';
+import Logo from '../assets/logo-shecofest.html';
 
 interface HeaderProps {
   currentPage: Page;
@@ -26,15 +27,16 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
 
   return (
     <header className="bg-[#1F3C88] text-white shadow-lg sticky top-0 z-50">
-      <div>
+      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-16">
           <div 
             className="flex items-center cursor-pointer"
             onClick={() => handleNavigate('home')}
           >
             <img
-              src="/assets/logo-shecofest.html"
+              src={Logo}
               alt="Shecofest Logo"
+              className="h-8 w-auto"
               />
             <span className="ml-2 text-sm font-medium">2025</span>
           </div>
