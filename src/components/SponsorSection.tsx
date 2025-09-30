@@ -1,8 +1,9 @@
 import React from 'react';
+import Logo from '../assets/BARA.svg';
 
 const SponsorSection: React.FC = () => {
   const sponsors = [
-    { name: 'Coming Soon', logo: '🏦' },
+    { name: 'Coming Soon', logo: <img src={Logo} alt="BARA LOGO" className="h-12 w-auto" /> },
     { name: 'Coming Soon', logo: '🎓' },
     { name: 'Coming Soon', logo: '🏛️' },
     { name: 'Coming Soon', logo: '💰' },
