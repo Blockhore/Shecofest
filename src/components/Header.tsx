@@ -38,6 +38,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
               alt="Shecofest Logo"
               className="h-8 w-auto"
               />
+            <div className="text-white font-bold text-xl">SHECOFEST</div>
             <span className="ml-2 text-sm font-medium">2025</span>
           </div>
 
