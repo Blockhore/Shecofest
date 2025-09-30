@@ -26,7 +26,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
 
   return (
     <header className="bg-[#1F3C88] text-white shadow-lg sticky top-0 z-50">
-      <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+      <div>
         <div className="flex items-center justify-between h-16">
           <div 
             className="flex items-center cursor-pointer"
