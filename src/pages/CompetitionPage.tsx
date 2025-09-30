@@ -30,7 +30,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Setiap tim hanya di perbolehkan mengirimkan satu karya',
         'Karya yang dikirim adalah karya asli yang belum pernah dipublikasikan dan belum pernah diikutkan',
         'Karya tidak mengandung SARA',
-        'Wajib follow sosial media'
+        'Wajib follow social media'
       ],
       criteria: [
         'Ketajaman Analisis dan Validasi Data (35%)',
@@ -50,21 +50,23 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       title: 'Business Model Canvas Competition',
       subtitle: 'Kompetisi Rencana Bisnis Syariah',
       description: 'Kembangkan ide bisnis inovatif yang berlandaskan prinsip-prinsip syariah dan dapat diimplementasikan di dunia nyata.',
-      theme: 'Startup Syariah Berkelanjutan: Solusi Bisnis untuk Masalah Sosial Ekonomi',
+      theme: 'INOVASI TEKNOLOGI HIJAU DALAM PENGELOLAAN LIMBAH DAN DAUR ULANG SEBAGAI MODEL ENTREPRENEURSHIP BERKELANJUTAN',
       icon: '💼',
       timeline: [
-        { phase: 'Pendaftaran', date: 'Jan 15 - Mar 20, 2025', status: 'active' },
-        { phase: 'Tahap Penyisihan', date: 'Mar 25 - Apr 5, 2025', status: 'upcoming' },
-        { phase: 'Semifinal', date: 'Apr 12 - Apr 13, 2025', status: 'upcoming' },
-        { phase: 'Final & Awarding', date: 'Apr 20, 2025', status: 'upcoming' }
+        { phase: 'Pendaftaran + Pengumpulan Karya', date: '1 - 20 Okt, 2025', status: 'active' },
+        { phase: 'Seleksi Karya', date: '24 Okt, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman Finalis', date: '29 Okt, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting (Pembahasan Presentasi Finalis)', date: '4 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumpulan PPT', date: '5 - 13 Nov, 2025', status: 'upcoming' },
+        { phase: 'Presetasi Finalis', date: '14 - 15 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' },
       ],
       requirements: [
-        'Tim maksimal 4 orang mahasiswa aktif',
-        'Business plan asli dan belum pernah diajukan',
-        'Presentasi menggunakan PowerPoint maksimal 20 slide',
-        'Executive summary 2 halaman',
-        'Rencana bisnis lengkap 25-40 halaman',
-        'Financial projection minimal 3 tahun'
+        'Mahasiswa aktif D3/D4/S1 perguruan tinggi seluruh Indonesia',
+        'Tim terdiri dari 3-4 orang',
+        'Setiap tim diperbolehkan mengirim satu karya',
+        'Wajib follow social media',
+        'Peserta yang telah terdaftar tidak boleh digantikan',
       ],
       criteria: [
         'Inovasi dan kreativitas ide (25%)',
@@ -74,11 +76,11 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Presentasi dan komunikasi (10%)'
       ],
       prizes: [
-        { position: 'Juara 1', reward: 'Rp 1.500.000 + Trophy + Sertifikat' },
-        { position: 'Juara 2', reward: 'Rp 1.000.000 + Trophy + Sertifikat' },
-        { position: 'Juara 3', reward: 'Rp 500.000 + Trophy + Sertifikat' },
-        { position: 'Harapan 1', reward: 'Rp 200.000 + Sertifikat' },
-        { position: 'Harapan 2', reward: 'Rp 100.000 + Sertifikat' }
+        { position: 'Juara 1', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 2', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 3', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Harapan 1', reward: 'Uang Pembinaan + Sertifikat' },
+        { position: 'Harapan 2', reward: 'Uang Pembinaan + Sertifikat' },
       ]
     },
     'debate': {
