@@ -85,7 +85,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       title: 'Tilawah Competition',
       subtitle: 'Kompetisi Tilawah Ekonomi Syariah',
       description: 'Tunjukkan kemampuan tilawah dan suara emasmu dalam membaca ayat suci al-quran.',
-      theme: 'Peran Ekonomi Syariah dalam Mengatasi Ketimpangan Ekonomi Global',
+      theme: "Tilawaah Qur'ani : Suara Langit untuk Bumi yang Lestari",
       icon: '🎤',
       timeline: [
         { phase: 'Pendaftaran', date: 'Jan 15 - Mar 18, 2025', status: 'active' },
