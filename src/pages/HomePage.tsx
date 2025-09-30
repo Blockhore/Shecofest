@@ -139,6 +139,9 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
 
       {/* Sponsors */}
       <SponsorSection />
+
+      {/* Media Partner*/}
+      <MediaPartner />
     </div>
   );
 };
