@@ -91,10 +91,10 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         { phase: 'Pendaftaran + Pengumpulan Video', date: '1 - 20 Okt, 2025', status: 'active' },
         { phase: 'Seleksi Video', date: '21 - 27 Okt, 2025', status: 'upcoming' },
         { phase: 'Pengumuman Finalis', date: '28 Okt, 2025', status: 'upcoming' },
-        { phase: 'Technical Meeting (Pembahasan Finalis)', date: '4 Nov, 2025', status: 'upcoming' }
-        { phase: 'Persiapan Final', date: '5 - 13 Nov, 2025', status: 'upcoming' }
-        { phase: 'Pelaksanaan Tilawah', date: '14 - 15 Nov, 2025', status: 'upcoming' }
-        { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' }
+        { phase: 'Technical Meeting (Pembahasan Finalis)', date: '4 Nov, 2025', status: 'upcoming' },
+        { phase: 'Persiapan Final', date: '5 - 13 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pelaksanaan Tilawah', date: '14 - 15 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' },
       ],
       requirements: [
         'Peserta siswa aktif SMA/SMK sederajaht dari sekolah di seluruh Indonesia',
