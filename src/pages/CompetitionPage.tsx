@@ -69,11 +69,10 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Peserta yang telah terdaftar tidak boleh digantikan',
       ],
       criteria: [
-        'Inovasi dan kreativitas ide (25%)',
-        'Kelayakan bisnis dan market potential (25%)',
-        'Aspek syariah compliance (20%)',
-        'Financial projection dan sustainability (20%)',
-        'Presentasi dan komunikasi (10%)'
+        'Kesesuaian tema (15%)',
+        'Inovasi (10%)',
+        'Potensi realistis bisnis (15%)',
+        'Isi BMC (45%)',
       ],
       prizes: [
         { position: 'Juara 1', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
