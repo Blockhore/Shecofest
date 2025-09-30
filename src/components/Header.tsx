@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Page } from '../App';
-import Logo from '../assets/logo-shecofest.html';
+import Logo from '../assets/logo-shecofest.svg';
 
 interface HeaderProps {
   currentPage: Page;
