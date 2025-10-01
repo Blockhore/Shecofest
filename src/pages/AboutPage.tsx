@@ -42,7 +42,7 @@ const AboutPage: React.FC = () => {
             </div>
             <div className="bg-gradient-to-br from-[#4DB7F7]/10 to-[#1F3C88]/10 p-8 rounded-3xl">
               <img 
-                src="https://images.pexels.com/photos/3184460/pexels-photo-3184460.jpeg" 
+                src="https://postimg.cc/9zghdHTh" 
                 alt="Shecofest Event" 
                 className="w-full h-64 object-cover rounded-2xl shadow-lg"
               />
