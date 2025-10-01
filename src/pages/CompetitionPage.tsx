@@ -32,13 +32,15 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       theme: 'PERAN GEN-Z DALAM MENGGERAKKAN EKONOMI HIJAU MELALUI SPECIAL ENTEPRENEURSHIP BERKELANJUTAN',
       icon: '📝',
       timeline: [
-        { phase: 'Pendaftaran + Pengumpulan Abstrak', date: '1 - 14  Okt, 2025', status: 'active' },
-        { phase: 'Technical Meeting 1 (Pembahasan Full Paper)', date: '15 Okt, 2025', status: 'upcoming' },
-        { phase: 'Daftar Ulang + Pengumpulan Full Paper', date: '16 - 22 Okt, 2025', status: 'upcoming' },
-        { phase: 'Seleksi Full Paper', date: '23 - 24 Okt, 2025', status: 'upcoming' },
-        { phase: 'Technical Meeting 2 (Pembahasan Presentasi Finalis)', date: '25 Okt, 2025', status: 'upcoming' },
-        { phase: 'Presentasi Finalis', date: '13 Nov, 2025', status: 'upcoming' },
-        { phase: 'Pengumuman', date: '14 Nov, 2025', status: 'upcoming' }
+        { phase: 'Pendaftaran + Pengumpulan Abstrak', date: '1 - 20  Okt, 2025', status: 'active' },
+        { phase: 'Pengumuman Abstrak', date: '21 Okt, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting 1 (Pembahasan Full Paper)', date: '22 Okt, 2025', status: 'upcoming' },
+        { phase: 'Daftar Ulang + Pengumpulan Full Paper', date: '23 - 29 Okt, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman Finalis 5 Besar', date: '3 Nov, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting 2 (Bagi Finalis 5 Besar)', date: '4 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumpulan PPT + Registrasi 5 Finalis', date: '5 - 13 Nov, 2025', status: 'upcoming' },
+        { phase: 'Presentasi Finalis', date: '14 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' }
       ],
       requirements: [
         'Mahasiswa aktif D3/D4/S1 dari perguruan tinggi seluruh dunia',
@@ -48,10 +50,16 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Karya tidak mengandung SARA',
         'Wajib follow social media'
       ],
-      criteria: [
+      criteria paper: [
         'Ketajaman Analisis dan Validasi Data (35%)',
         'Ide dan Gagasan (35%)',
         'Kesesuaian dengan Tema (20%)',
+        'Sistematika Penulisan dan Tata Bahasa (10%)'
+      ],
+      criteria presentation: [
+        'Penyampaian Materi (30%)',
+        'Penguasaan Materi (30%)',
+        'Ketepatan Tanya Jawab (30%)',
         'Sistematika Penulisan dan Tata Bahasa (10%)'
       ],
       prizes: [
