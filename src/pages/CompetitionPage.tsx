@@ -55,11 +55,11 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Sistematika Penulisan dan Tata Bahasa (10%)'
       ],
       prizes: [
-        { position: 'Juara 1', reward: 'Rp 2.000.000 + Trophy + Sertifikat' },
-        { position: 'Juara 2', reward: 'Rp 1.500.000 + Trophy + Sertifikat' },
-        { position: 'Juara 3', reward: 'Rp 1.000.000 + Trophy + Sertifikat' },
-        { position: 'Harapan 1', reward: 'Rp 300.000 + Sertifikat' },
-        { position: 'Harapan 2', reward: 'Rp 200.000 + Sertifikat' }
+        { position: 'Juara 1', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 2', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 3', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Harapan 1', reward: 'Uang Pembinaan + Sertifikat' },
+        { position: 'Harapan 2', reward: 'Uang Pembinaan + Sertifikat' }
       ]
     },
     'business-plan': {
