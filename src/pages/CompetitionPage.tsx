@@ -56,7 +56,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Kesesuaian dengan Tema (20%)',
         'Sistematika Penulisan dan Tata Bahasa (10%)'
       ],
-      criteria: [
+      presentation: [
         'Penyampaian Materi (30%)',
         'Penguasaan Materi (30%)',
         'Ketepatan Tanya Jawab (30%)',
@@ -304,6 +304,31 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
                     <div className="p-4 border-t border-[#4DB7F7]/20">
                       <ul className="space-y-2">
                         {competition.criteria.map((criteria, index) => (
+                          <li key={index} className="flex items-start">
+                            <span className="w-2 h-2 bg-[#FFD700] rounded-full mt-2 mr-3 flex-shrink-0"></span>
+                            <span className="text-gray-700">{criteria}</span>
+                          </li>
+                        ))}
+                      </ul>
+                    </div>
+                  )}
+                </div>
+
+                <div className="border border-[#4DB7F7]/20 rounded-lg">
+                  <button
+                    onClick={() => toggleAccordion('criteria')}
+                    className="w-full p-4 text-left flex items-center justify-between bg-[#4DB7F7]/5 hover:bg-[#4DB7F7]/10 transition-colors duration-200"
+                  >
+                    <span className="font-semibold text-[#1F3C88]">Penilaian Presentasi</span>
+                    {expandedAccordion === 'criteria' ? 
+                      <ChevronDown className="w-5 h-5 text-[#4DB7F7]" /> : 
+                      <ChevronRight className="w-5 h-5 text-[#4DB7F7]" />
+                    }
+                  </button>
+                  {expandedAccordion === 'criteria' && (
+                    <div className="p-4 border-t border-[#4DB7F7]/20">
+                      <ul className="space-y-2">
+                        {competition.presentation.map((presentation, index) => (
                           <li key={index} className="flex items-start">
                             <span className="w-2 h-2 bg-[#FFD700] rounded-full mt-2 mr-3 flex-shrink-0"></span>
                             <span className="text-gray-700">{criteria}</span>
