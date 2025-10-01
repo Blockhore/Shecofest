@@ -16,6 +16,14 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
     'poster': 'https://forms.gle/poster-competition-link'
   };
 
+  // Google Drive links for guideline documents
+  const gdriveLinks = {
+    'essay': 'https://drive.google.com/file/d/essay-guideline-document-id/view',
+    'business-plan': 'https://drive.google.com/file/d/business-plan-guideline-document-id/view',
+    'debate': 'https://drive.google.com/file/d/debate-guideline-document-id/view',
+    'poster': 'https://drive.google.com/file/d/poster-guideline-document-id/view'
+  };
+
   const competitionData = {
     'essay': {
       title: 'Paper Competition',
@@ -337,9 +345,14 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
             >
               Daftar Sekarang
             </a>
-            <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1F3C88] transition-all duration-300">
+            <a 
+              href={gdriveLinks[type]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1F3C88] transition-all duration-300 inline-block text-center"
+            >
               Download Panduan
-            </button>
+            </a>
           </div>
         </div>
       </section>
