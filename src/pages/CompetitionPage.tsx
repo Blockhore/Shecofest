@@ -8,6 +8,14 @@ interface CompetitionPageProps {
 const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
   const [expandedAccordion, setExpandedAccordion] = useState<string | null>(null);
 
+  // Google Form links for each competition
+  const gformLinks = {
+    'essay': 'https://forms.gle/essay-competition-link',
+    'business-plan': 'https://forms.gle/business-plan-competition-link', 
+    'debate': 'https://forms.gle/debate-competition-link',
+    'poster': 'https://forms.gle/poster-competition-link'
+  };
+
   const competitionData = {
     'essay': {
       title: 'Paper Competition',
@@ -321,9 +329,14 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
             Jangan lewatkan kesempatan untuk menunjukkan kemampuan terbaik Anda dalam {competition.title}
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
-            <button className="bg-[#FFD700] text-[#1F3C88] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
+            <a 
+              href={gformLinks[type]}
+              target="_blank"
+              rel="noopener noreferrer"
+              className="bg-[#FFD700] text-[#1F3C88] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg inline-block text-center"
+            >
               Daftar Sekarang
-            </button>
+            </a>
             <button className="border-2 border-white text-white px-8 py-4 rounded-full font-bold text-lg hover:bg-white hover:text-[#1F3C88] transition-all duration-300">
               Download Panduan
             </button>
