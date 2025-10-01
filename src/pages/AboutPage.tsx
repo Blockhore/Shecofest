@@ -159,9 +159,11 @@ const AboutPage: React.FC = () => {
           <p className="text-xl mb-8 max-w-2xl mx-auto">
             Jadilah bagian dari perubahan positif dalam pengembangan ekonomi syariah Indonesia
           </p>
-          <button className="bg-[#FFD700] text-[#1F3C88] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
+          <a
+            href="https://www.instagram.com/shecofest.uinkhasjember?igsh=c2FtOWNmZGlra3M3"
+            className="bg-[#FFD700] text-[#1F3C88] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
             Lihat Kompetisi
-          </button>
+          </a>
         </div>
       </section>
     </div>
