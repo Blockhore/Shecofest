@@ -47,9 +47,12 @@ const MediaPartnerSection: React.FC = () => {
               Bergabunglah dengan kami dalam menyebarkan informasi tentang ekonomi syariah. 
               Hubungi tim media relations kami untuk kerjasama yang saling menguntungkan.
             </p>
-            <button className="bg-[#4DB7F7] text-white px-8 py-3 rounded-full font-bold hover:bg-[#1F3C88] transform hover:scale-105 transition-all duration-300 shadow-lg">
+            <a
+              href="mailto:partnership@shecofest.com?subject=Partnership Inquiry - Shecofest 2025&body=Halo Tim Partnership Shecofest,%0D%0A%0D%0ASaya tertarik untuk menjadi sponsor/partner dalam acara Shecofest 2025. Mohon informasi lebih lanjut mengenai paket sponsorship yang tersedia.%0D%0A%0D%0ATerima kasih."
+              className="bg-[#4DB7F7] text-white px-8 py-3 rounded-full font-bold hover:bg-[#1F3C88] transform hover:scale-105 transition-all duration-300 shadow-lg"
+              >
               Hubungi Media Relations
-            </button>
+            </a>
           </div>
         </div>
       </div>
