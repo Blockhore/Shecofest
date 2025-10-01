@@ -56,12 +56,12 @@ const FAQContactPage: React.FC = () => {
       icon: Instagram,
       label: 'Instagram',
       value: '@shecofest2025',
-      link: 'https://instagram.com/shecofest2025'
+      link: 'https://www.instagram.com/shecofest.uinkhasjember'
     },
     {
       icon: MapPin,
       label: 'Alamat',
-      value: 'Universitas Indonesia, Depok, Jawa Barat',
+      value: 'Universitas Islam Negeri Kiai Haji Achmad Siddiq Jember, Jember, Jawa Timur',
       link: null
     }
   ];
@@ -256,11 +256,11 @@ const FAQContactPage: React.FC = () => {
                 </p>
                 <div className="space-y-3">
                   <a 
-                    href="#" 
+                    href="https://www.instagram.com/shecofest.uinkhasjember" 
                     className="flex items-center p-3 bg-gradient-to-r from-pink-500 to-purple-600 text-white rounded-lg hover:from-pink-600 hover:to-purple-700 transition-all duration-300"
                   >
                     <Instagram className="w-5 h-5 mr-3" />
-                    @shecofest2025
+                    @shecofest.uinkhasjember
                   </a>
                   <a 
                     href="#" 
