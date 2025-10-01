@@ -48,9 +48,12 @@ const SponsorSection: React.FC = () => {
               Bergabunglah dengan kami dalam mendukung pengembangan ekonomi syariah Indonesia. 
               Hubungi tim partnership kami untuk informasi lebih lanjut.
             </p>
-            <button className="bg-[#FFD700] text-[#1F3C88] px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg">
+            <a 
+              href="mailto:partnership@shecofest.com?subject=Partnership Inquiry - Shecofest 2025&body=Halo Tim Partnership Shecofest,%0D%0A%0D%0ASaya tertarik untuk menjadi sponsor/partner dalam acara Shecofest 2025. Mohon informasi lebih lanjut mengenai paket sponsorship yang tersedia.%0D%0A%0D%0ATerima kasih."
+              className="bg-[#FFD700] text-[#1F3C88] px-8 py-3 rounded-full font-bold hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg"
+              >
               Hubungi Partnership
-            </button>
+            </a>
           </div>
         </div>
       </div>
