@@ -61,7 +61,12 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             Bergabunglah dalam festival ekonomi syariah terbesar dan tunjukkan kreativitas serta inovasi Anda dalam kompetisi bergengsi ini.
           </p>
           <button 
-            onClick={() => onNavigate('essay')}
+            onClick={() => {
+              const competitionsSection = document.getElementById('competitions-section');
+              if (competitionsSection) {
+                competitionsSection.scrollIntoView({ behavior: 'smooth' });
+              }
+            }}
             className="bg-[#FFD700] text-[#1F3C88] px-8 py-4 rounded-full font-bold text-lg hover:bg-yellow-400 transform hover:scale-105 transition-all duration-300 shadow-lg inline-flex items-center"
           >
             Daftar Sekarang
