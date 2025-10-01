@@ -33,10 +33,8 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       icon: '📝',
       timeline: [
         { phase: 'Pendaftaran + Pengumpulan Abstrak', date: '1 - 20  Okt, 2025', status: 'active' },
-        { phase: 'Pengumuman Abstrak', date: '21 Okt, 2025', status: 'upcoming' },
         { phase: 'Technical Meeting 1 (Pembahasan Full Paper)', date: '22 Okt, 2025', status: 'upcoming' },
         { phase: 'Daftar Ulang + Pengumpulan Full Paper', date: '23 - 29 Okt, 2025', status: 'upcoming' },
-        { phase: 'Pengumuman Finalis 5 Besar', date: '3 Nov, 2025', status: 'upcoming' },
         { phase: 'Technical Meeting 2 (Bagi Finalis 5 Besar)', date: '4 Nov, 2025', status: 'upcoming' },
         { phase: 'Pengumpulan PPT + Registrasi 5 Finalis', date: '5 - 13 Nov, 2025', status: 'upcoming' },
         { phase: 'Presentasi Finalis', date: '14 Nov, 2025', status: 'upcoming' },
