@@ -50,13 +50,13 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Karya tidak mengandung SARA',
         'Wajib follow social media'
       ],
-      criteria paper: [
+      criteria: [
         'Ketajaman Analisis dan Validasi Data (35%)',
         'Ide dan Gagasan (35%)',
         'Kesesuaian dengan Tema (20%)',
         'Sistematika Penulisan dan Tata Bahasa (10%)'
       ],
-      criteria presentation: [
+      criteria: [
         'Penyampaian Materi (30%)',
         'Penguasaan Materi (30%)',
         'Ketepatan Tanya Jawab (30%)',
