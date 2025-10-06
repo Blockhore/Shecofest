@@ -17,28 +17,28 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       title: 'Paper Competition',
       description: 'Tuangkan pemikiran dan analisis mendalam Anda tentang ekonomi syariah dalam bentuk karya tulis yang berkualitas.',
       icon: '📝',
-      deadline: '14 Oktober, 2025'
+      deadline: '20 Oktober, 2025'
     },
     {
       id: 'debate' as Page,
       title: 'Tilawah Competition',
       description: 'Tunjukkan kemampuan tilawah dan suara emasmu dalam membaca ayat suci al-quran.',
       icon: '🎤',
-      deadline: '14 Oktober, 2025'
+      deadline: '20 Oktober, 2025'
     },
     {
       id: 'poster' as Page,
       title: 'Poster Competition',
       description: 'Buat visualisasi kreatif dan informatif yang dapat menyampaikan konsep ekonomi syariah dengan menarik.',
       icon: '🎨',
-      deadline: '14 Oktober, 2025'
+      deadline: '20 Oktober, 2025'
     },
     {
       id: 'business-plan' as Page,
       title: 'Business Model Canvas Competition',
       description: 'Kembangkan ide bisnis inovatif yang berlandaskan prinsip-prinsip syariah dan dapat diimplementasikan di dunia nyata.',
       icon: '💼',
-      deadline: '14 Oktober, 2025'
+      deadline: '20 Oktober, 2025'
     }
   ];
 
