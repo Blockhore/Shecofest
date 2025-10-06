@@ -162,9 +162,9 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Komposisi dan estetika (10%)'
       ],
       prizes: [
-        { position: 'Juara 1', reward: 'Rp 1.500.000 + Trophy + Sertifikat' },
-        { position: 'Juara 2', reward: 'Rp 1.000.000 + Trophy + Sertifikat' },
-        { position: 'Juara 3', reward: 'Rp 500.000 + Trophy + Sertifikat' },
+        { position: 'Juara 1', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 2', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
+        { position: 'Juara 3', reward: 'Uang Pembinaan + Trophy + Sertifikat' },
       ]
     }
   };
