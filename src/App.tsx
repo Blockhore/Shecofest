@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { LanguangeProvider } from './contexts/LanguangeContext';
 import Header from './components/Header';
 import HomePage from './pages/HomePage';
 import AboutPage from './pages/AboutPage';
@@ -33,12 +32,10 @@ function App() {
   };
 
   return (
-    <LanguangeProvider>
-      <div className="min-h-screen bg-gray-50 font-['Poppins']">
-        <Header currentPage={currentPage} onNavigate={setCurrentPage} />
-        {renderPage()}
-      </div>
-    </LanguangeProvider>
+    <div className="min-h-screen bg-gray-50 font-['Poppins']">
+      <Header currentPage={currentPage} onNavigate={setCurrentPage} />
+      {renderPage()}
+    </div>
   );
 }
 
