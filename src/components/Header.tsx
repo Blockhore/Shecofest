@@ -1,7 +1,9 @@
 import React, { useState } from 'react';
 import { ChevronDown, Menu, X } from 'lucide-react';
 import { Page } from '../App';
+import { useLanguange } from '../contexts/LanguangeContext';
 import Logo from '../assets/logo-shecofest.svg';
+
 
 interface HeaderProps {
   currentPage: Page;
@@ -11,6 +13,7 @@ interface HeaderProps {
 const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
   const [isCompetitionDropdownOpen, setIsCompetitionDropdownOpen] = useState(false);
   const [isMobileMenuOpen, setIsMobileMenuOpen] = useState(false);
+  const { languange, setLanguange, t } = useLanguange();
 
   const competitions = [
     { id: 'essay' as Page, name: 'Paper Competition' },
@@ -50,7 +53,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                 currentPage === 'home' ? 'text-[#4DB7F7]' : 'hover:text-[#4DB7F7]'
               }`}
             >
-              Home
+              {t('header.home')}
             </button>
             <button
               onClick={() => handleNavigate('about')}
@@ -58,7 +61,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                 currentPage === 'about' ? 'text-[#4DB7F7]' : 'hover:text-[#4DB7F7]'
               }`}
             >
-              About
+              {t('header.about')}
             </button>
             
             <div className="relative">
@@ -70,7 +73,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                 }`}
                 onClick={() => setIsCompetitionDropdownOpen(!isCompetitionDropdownOpen)}
               >
-                Competitions
+                {t('header.competitions')}
                 <ChevronDown className={`ml-1 w-4 h-4 transition-transform duration-200 ${
                   isCompetitionDropdownOpen ? 'rotate-180' : ''
                 }`} />
@@ -97,8 +100,19 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                 currentPage === 'faq-contact' ? 'text-[#4DB7F7]' : 'hover:text-[#4DB7F7]'
               }`}
             >
-              FAQ & Contact
+              {t('header.faq')}
             </button>
+
+            {/* Language Toggle */}
+            <div className="relative">
+              <button
+                onClick={() => setLanguage(language === 'id' ? 'en' : 'id')}
+                className="flex items-center font-medium transition-colors duration-200 hover:text-[#4DB7F7] bg-white/10 px-3 py-2 rounded-lg"
+              >
+                <Globe className="w-4 h-4 mr-2" />
+                {language === 'id' ? 'ID' : 'EN'}
+              </button>
+            </div>
           </nav>
 
           {/* Mobile menu button */}
@@ -122,7 +136,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                   currentPage === 'home' ? 'text-[#4DB7F7]' : 'hover:text-[#4DB7F7]'
                 }`}
               >
-                Home
+                {t('header.home')}
               </button>
               <button
                 onClick={() => handleNavigate('about')}
@@ -130,7 +144,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                   currentPage === 'about' ? 'text-[#4DB7F7]' : 'hover:text-[#4DB7F7]'
                 }`}
               >
-                About
+                {t('header.about')}
               </button>
               
               <div className="border-l-2 border-[#4DB7F7] pl-4">
@@ -152,7 +166,7 @@ const Header: React.FC<HeaderProps> = ({ currentPage, onNavigate }) => {
                   currentPage === 'faq-contact' ? 'text-[#4DB7F7]' : 'hover:text-[#4DB7F7]'
                 }`}
               >
-                FAQ & Contact
+                {t('header.faq')}
               </button>
             </div>
           </div>
