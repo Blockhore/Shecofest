@@ -5,7 +5,7 @@ const Timeline: React.FC = () => {
   const timelineData = [
     {
       phase: 'Pendaftaran',
-      date: '1 - 14 Oktober 2025',
+      date: '3 - 20 Oktober 2025',
       description: 'Pembukaan pendaftaran untuk semua kategori kompetisi',
       icon: Calendar,
       status: 'active'
@@ -19,14 +19,14 @@ const Timeline: React.FC = () => {
     },
     {
       phase: 'Final',
-      date: '13 November 2025',
+      date: '15 November 2025',
       description: 'Babak final dan presentasi peserta terpilih yang lolos',
       icon: Trophy,
       status: 'upcoming'
     },
     {
       phase: 'Awarding',
-      date: '14 November 2025',
+      date: '16 November 2025',
       description: 'Pengumuman pemenang dan pemberian penghargaan',
       icon: Award,
       status: 'upcoming'
