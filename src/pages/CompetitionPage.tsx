@@ -10,7 +10,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
 
   // Google Form links for each competition
   const gformLinks = {
-    'essay': 'https://forms.gle/essay-competition-link',
+    'essay': 'https://forms.gle/EyhtniZakjki4Nys5',
     'business-plan': 'https://forms.gle/business-plan-competition-link', 
     'debate': 'https://forms.gle/debate-competition-link',
     'poster': 'https://forms.gle/poster-competition-link'
@@ -18,7 +18,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
 
   // Google Drive links for guideline documents
   const gdriveLinks = {
-    'essay': 'https://drive.google.com/file/d/essay-guideline-document-id/view',
+    'essay': 'https://drive.google.com/drive/folders/1G54b20b-RB7DuV-SWCm-Y3-oSCbh6x0I',
     'business-plan': 'https://drive.google.com/file/d/business-plan-guideline-document-id/view',
     'debate': 'https://drive.google.com/file/d/debate-guideline-document-id/view',
     'poster': 'https://drive.google.com/file/d/poster-guideline-document-id/view'
