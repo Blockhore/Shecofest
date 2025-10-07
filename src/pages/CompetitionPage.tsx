@@ -12,7 +12,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
   const gformLinks = {
     'essay': 'https://forms.gle/EyhtniZakjki4Nys5',
     'business-plan': 'https://forms.gle/business-plan-competition-link', 
-    'debate': 'https://forms.gle/debate-competition-link',
+    'debate': 'https://docs.google.com/forms/d/e/1FAIpQLSfd3OFQ1nI47n-eQtHksHsDMxqadlwgaZin8uZFSRe6YZQmmw/viewform?usp=header',
     'poster': 'https://forms.gle/poster-competition-link'
   };
 
