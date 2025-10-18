@@ -150,7 +150,7 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
         'Peserta lomba merupakan mahasiswa aktif perguruan tinggi',
         'Peserta lomba merupakan lomba individu atau tim maksimal 3 orang',
         'Karya asli dan belum pernah dipublikasikan',
-        'File dalam format PDF dan JPG',
+        'Hasil karya menggunakan format jpg atau png berukuran A4 dengan posisi potrait',
         'Menggunakan bahasa Indonesia yang baik',
         'Follow akun sosial media'
       ],
