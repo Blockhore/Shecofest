@@ -11,17 +11,17 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
   // Google Form links for each competition
   const gformLinks = {
     'essay': 'https://forms.gle/EyhtniZakjki4Nys5',
-    'business-plan': 'https://forms.gle/business-plan-competition-link', 
+    'business-plan': 'https://docs.google.com/forms/d/e/1FAIpQLSeRBSbYPBgkhg_qQ-SYAwZ8et38hPMvQVSnjuL6Pqza7K9H_A/viewform', 
     'debate': 'https://docs.google.com/forms/d/e/1FAIpQLSfd3OFQ1nI47n-eQtHksHsDMxqadlwgaZin8uZFSRe6YZQmmw/viewform?usp=header',
-    'poster': 'https://forms.gle/poster-competition-link'
+    'poster': 'https://forms.gle/Kgo2z5Ccu6bfW1AF7'
   };
 
   // Google Drive links for guideline documents
   const gdriveLinks = {
     'essay': 'https://drive.google.com/drive/folders/1G54b20b-RB7DuV-SWCm-Y3-oSCbh6x0I',
-    'business-plan': 'https://drive.google.com/file/d/business-plan-guideline-document-id/view',
-    'debate': 'https://drive.google.com/file/d/debate-guideline-document-id/view',
-    'poster': 'https://drive.google.com/file/d/poster-guideline-document-id/view'
+    'business-plan': 'https://drive.google.com/drive/folders/1662lsNnTQO8Jf0PYXRg2wjOro7JITd8v',
+    'debate': 'https://drive.google.com/drive/folders/1662lsNnTQO8Jf0PYXRg2wjOro7JITd8v',
+    'poster': 'https://drive.google.com/drive/folders/1662lsNnTQO8Jf0PYXRg2wjOro7JITd8v'
   };
 
   const competitionData = {
