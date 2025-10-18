@@ -69,11 +69,11 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       theme: 'INOVASI TEKNOLOGI HIJAU DALAM PENGELOLAAN LIMBAH DAN DAUR ULANG SEBAGAI MODEL ENTREPRENEURSHIP BERKELANJUTAN',
       icon: '💼',
       timeline: [
-        { phase: 'Pendaftaran + Pengumpulan Karya', date: '1 - 20 Okt, 2025', status: 'active' },
-        { phase: 'Seleksi Karya', date: '24 Okt, 2025', status: 'upcoming' },
-        { phase: 'Pengumuman Finalis', date: '29 Okt, 2025', status: 'upcoming' },
-        { phase: 'Technical Meeting (Pembahasan Presentasi Finalis)', date: '4 Nov, 2025', status: 'upcoming' },
-        { phase: 'Pengumpulan PPT', date: '5 - 13 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pendaftaran + Pengumpulan Karya', date: '15 Okt - 3 Nov, 2025', status: 'active' },
+        { phase: 'Seleksi Karya', date: '3 - 6 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman Finalis', date: '8 Nov, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting (Pembahasan Presentasi Finalis)', date: '10 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumpulan PPT', date: '10 - 13 Nov, 2025', status: 'upcoming' },
         { phase: 'Presetasi Finalis', date: '14 - 15 Nov, 2025', status: 'upcoming' },
         { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' },
       ],
@@ -105,11 +105,11 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       theme: "TILAWAH QUR'ANI : SUARA LANGIT UNTUK BUMI YANG LESTARI",
       icon: '🎤',
       timeline: [
-        { phase: 'Pendaftaran + Pengumpulan Video', date: '1 - 20 Okt, 2025', status: 'active' },
-        { phase: 'Seleksi Video', date: '21 - 27 Okt, 2025', status: 'upcoming' },
-        { phase: 'Pengumuman Finalis', date: '28 Okt, 2025', status: 'upcoming' },
-        { phase: 'Technical Meeting (Pembahasan Finalis)', date: '4 Nov, 2025', status: 'upcoming' },
-        { phase: 'Persiapan Final', date: '5 - 13 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pendaftaran + Pengumpulan Video', date: '15 - 29 Okt, 2025', status: 'active' },
+        { phase: 'Seleksi Video', date: '29 Okt - 4 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman Finalis', date: '4 Nov, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting (Bagi Finalis)', date: '6 Nov, 2025', status: 'upcoming' },
+        { phase: 'Persiapan Final', date: '7 - 13 Nov, 2025', status: 'upcoming' },
         { phase: 'Pelaksanaan Tilawah', date: '14 - 15 Nov, 2025', status: 'upcoming' },
         { phase: 'Pengumuman', date: '16 Nov, 2025', status: 'upcoming' },
       ],
@@ -138,21 +138,21 @@ const CompetitionPage: React.FC<CompetitionPageProps> = ({ type }) => {
       title: 'Poster Competition',
       subtitle: 'Kompetisi Poster Ekonomi Syariah',
       description: 'Buat visualisasi kreatif dan informatif yang dapat menyampaikan konsep ekonomi syariah dengan menarik.',
-      theme: 'Literasi Ekonomi Syariah untuk Generasi Digital',
+      theme: 'BISNIS BERETIKA, LINGKUNGAN TERJAGA',
       icon: '🎨',
       timeline: [
-        { phase: 'Pendaftaran', date: 'Jan 15 - Mar 25, 2025', status: 'active' },
-        { phase: 'Pengumpulan Karya', date: 'Mar 26 - Mar 31, 2025', status: 'upcoming' },
-        { phase: 'Penjurian', date: 'Apr 1 - Apr 10, 2025', status: 'upcoming' },
-        { phase: 'Pengumuman', date: 'Apr 20, 2025', status: 'upcoming' }
+        { phase: 'Pendaftaran + Pengumpulan Karya', date: '15 Okt - 3 Nov, 2025', status: 'active' },
+        { phase: 'Seleksi Karya', date: '4 - 6 Nov, 2025', status: 'upcoming' },
+        { phase: 'Technical Meeting', date: '10 Nov, 2025', status: 'upcoming' },
+        { phase: 'Pengumuman', date: '14 - 16 Nov 2025', status: 'upcoming' }
       ],
       requirements: [
-        'Peserta individual atau tim maksimal 3 orang',
+        'Peserta lomba merupakan mahasiswa aktif perguruan tinggi',
+        'Peserta lomba merupakan lomba individu atau tim maksimal 3 orang',
         'Karya asli dan belum pernah dipublikasikan',
-        'Format A3 (29.7 x 42 cm) resolusi 300 DPI',
         'File dalam format PDF dan JPG',
         'Menggunakan bahasa Indonesia yang baik',
-        'Mencantumkan sumber data yang valid'
+        'Follow akun sosial media'
       ],
       criteria: [
         'Kreativitas dan originalitas desain (25%)',
