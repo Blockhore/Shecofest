@@ -10,10 +10,6 @@ const FAQContactPage: React.FC = () => {
       answer: 'Shecofest terbuka untuk mahasiswa aktif jenjang S1/D4 dari seluruh universitas di Indonesia. Beberapa kompetisi memungkinkan peserta individual, sementara yang lain dalam bentuk tim.'
     },
     {
-      question: 'Apakah ada biaya pendaftaran untuk mengikuti kompetisi?',
-      answer: 'Semua kompetisi di Shecofest 2025 GRATIS. Tidak ada biaya pendaftaran yang dikenakan kepada peserta.'
-    },
-    {
       question: 'Bagaimana cara mendaftar kompetisi?',
       answer: 'Pendaftaran dilakukan secara online melalui website resmi Shecofest. Peserta cukup mengisi formulir pendaftaran, upload dokumen persyaratan, dan menunggu konfirmasi dari panitia.'
     },
@@ -23,7 +19,7 @@ const FAQContactPage: React.FC = () => {
     },
     {
       question: 'Kapan batas akhir pendaftaran?',
-      answer: 'Batas akhir pendaftaran berbeda untuk setiap kompetisi: Essay (15 Maret), Business Plan (20 Maret), Debate (18 Maret), dan Poster (25 Maret 2025).'
+      answer: 'Batas akhir pendaftaran berbeda untuk setiap kompetisi.'
     },
     {
       question: 'Bagaimana sistem penjurian dilakukan?',
@@ -31,7 +27,7 @@ const FAQContactPage: React.FC = () => {
     },
     {
       question: 'Apakah ada sertifikat untuk semua peserta?',
-      answer: 'Ya, semua peserta yang mengikuti kompetisi hingga selesai akan mendapatkan e-certificate sebagai bukti partisipasi dalam Shecofest 2025.'
+      answer: 'Ya, semua peserta yang mengikuti kompetisi hingga selesai akan mendapatkan e-certificate dan sertifikat fisik bagi para finalis sebagai bukti partisipasi dalam Shecofest 2025.'
     },
     {
       question: 'Bagaimana jika ada pertanyaan teknis selama kompetisi?',
