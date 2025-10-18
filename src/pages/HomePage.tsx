@@ -24,21 +24,21 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
       title: 'Tilawah Competition',
       description: 'Tunjukkan kemampuan tilawah dan suara emasmu dalam membaca ayat suci al-quran.',
       icon: '🎤',
-      deadline: '20 Oktober, 2025'
+      deadline: '29 Oktober, 2025'
     },
     {
       id: 'poster' as Page,
       title: 'Poster Competition',
       description: 'Buat visualisasi kreatif dan informatif yang dapat menyampaikan konsep ekonomi syariah dengan menarik.',
       icon: '🎨',
-      deadline: '20 Oktober, 2025'
+      deadline: '3 November, 2025'
     },
     {
       id: 'business-plan' as Page,
       title: 'Business Model Canvas Competition',
       description: 'Kembangkan ide bisnis inovatif yang berlandaskan prinsip-prinsip syariah dan dapat diimplementasikan di dunia nyata.',
       icon: '💼',
-      deadline: '20 Oktober, 2025'
+      deadline: '3 November, 2025'
     }
   ];
 
@@ -100,7 +100,7 @@ const HomePage: React.FC<HomePageProps> = ({ onNavigate }) => {
             <div className="group hover:transform hover:scale-105 transition-all duration-300">
               <div className="bg-[#4DB7F7]/10 p-6 rounded-2xl">
                 <Target className="w-12 h-12 text-[#1F3C88] mx-auto mb-4" />
-                <h3 className="text-3xl font-bold text-[#1F3C88] mb-2">25jt+</h3>
+                <h3 className="text-3xl font-bold text-[#1F3C88] mb-2">15jt+</h3>
                 <p className="text-gray-600 font-medium">Total Hadiah</p>
               </div>
             </div>
