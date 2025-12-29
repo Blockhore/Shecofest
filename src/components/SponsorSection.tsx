@@ -1,6 +1,6 @@
 import React from 'react';
 import Logo from '../assets/BARA.svg';
-import Blockhore from '../assets/logo blockhore.scg';
+import Blockhore from '../assets/logo blockhore.svg';
 
 const SponsorSection: React.FC = () => {
   const sponsors = [
