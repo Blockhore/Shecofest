@@ -1,10 +1,11 @@
 import React from 'react';
 import Logo from '../assets/BARA.svg';
+import Blockhore from '../assets/logo blockhore.scg';
 
 const SponsorSection: React.FC = () => {
   const sponsors = [
     { name: 'BARA Kreasi Milenial', logo: <img src={Logo} alt="BARA LOGO" className="h-17 w-auto" /> },
-    { name: 'Blockhore', logo: <img src={blockhore} alt="BLOCKHORE LOGO" classname="h-17 w-auto"  /> },
+    { name: 'Blockhore', logo: <img src={Blockhore} alt="BLOCKHORE LOGO" classname="h-17 w-auto"  /> },
     { name: 'Coming Soon', logo: '🏛️' },
     { name: 'Coming Soon', logo: '💰' },
     { name: 'Coming Soon', logo: '📊' },
