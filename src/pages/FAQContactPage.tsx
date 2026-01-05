@@ -39,14 +39,14 @@ const FAQContactPage: React.FC = () => {
     {
       icon: Mail,
       label: 'Email',
-      value: 'info@shecofest.com',
-      link: 'mailto:info@shecofest.com'
+      value: '-',
+      link: ''
     },
     {
       icon: Phone,
       label: 'WhatsApp',
-      value: '+62 812-3456-7890',
-      link: 'https://wa.me/6281234567890'
+      value: '-',
+      link: '-'
     },
     {
       icon: Instagram,
