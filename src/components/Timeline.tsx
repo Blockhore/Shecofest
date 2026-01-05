@@ -15,21 +15,21 @@ const Timeline: React.FC = () => {
       date: 'Oktober - November 2025', 
       description: 'Proses penjurian dan seleksi karya-karya dari peserta',
       icon: Users,
-      status: 'upcoming'
+      status: 'active'
     },
     {
       phase: 'Final',
       date: '15 November 2025',
       description: 'Babak final dan presentasi peserta terpilih yang lolos',
       icon: Trophy,
-      status: 'upcoming'
+      status: 'active'
     },
     {
       phase: 'Awarding',
       date: '16 November 2025',
       description: 'Pengumuman pemenang dan pemberian penghargaan',
       icon: Award,
-      status: 'upcoming'
+      status: 'active'
     }
   ];
 
